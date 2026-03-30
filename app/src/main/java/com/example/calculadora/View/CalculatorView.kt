@@ -240,8 +240,8 @@ fun CalculadoraBackground(modifier: Modifier = Modifier) {
                 CalculatorButton(background = Color.DarkGray, text = "0") {
                     viewModel.onNumberClick("0")
                 }
-                CalculatorButton(background = Color.DarkGray, text = ",") {
-                    viewModel.onNumberClick(",")
+                CalculatorButton(background = Color.DarkGray, text = ".") {
+                    viewModel.onNumberClick(".")
                 }
                 CalculatorButton(background = Color(0xFFFF9800), text = "=") {
                     viewModel.onEqualClick()
